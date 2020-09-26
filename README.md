@@ -82,5 +82,8 @@ As the BioBERT classification model had been already pretrained on the PubMed an
   </tr>
 </table>
 <h2>Explanation samples</h2>
-<p>Here goes examples</p>
-<img src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/BioCIE-BioText(1).jpg">
+<p>In the following, samples of the explanations produced by our BioCIE explanator, LIME, and MUSE are given. The samples were produced on the predictions of the BioBERT text classifier on all the three datasets.</p>
+<h3>BioCIE</h3>
+<p>The following explanations were produced on two samples from the BioText dataset.</p>
+<img width="500" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/BioCIE-BioText(1).jpg">
+<img width="500" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/BioCIE-BioText(2).jpg">
