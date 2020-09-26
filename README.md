@@ -81,3 +81,7 @@ As the BioBERT classification model had been already pretrained on the PubMed an
     </td>
   </tr>
 </table>
+<h2>Explanation samples</h2>
+<p>Here goes examples</p>
+<img src="/images/BioCIE-BioText(1).jpg">
+![BioCIE-BioText-First example](/images/BioCIE-BioText(1).jpg)
