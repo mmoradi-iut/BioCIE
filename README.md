@@ -92,3 +92,6 @@ As the BioBERT classification model had been already pretrained on the PubMed an
 <img width="500" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/BioCIE-AIMed(2).jpg">
 <p>The following explanations were produced on two samples from the <b>Hereditary Diseases</b>. In these examples, the value of the threshold min_conf was set to 0.7. Few first sentences of the sample are represented in this example, since the sample's text is too long and there is no enough space to show the whole text.</p>
 <img width="500" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/BioCIE-HD.jpg">
+<h3>LIME</h3>
+<p>The following explanations were produced on a sample from the <b>BioText dataset</b>.</p>
+<img width="800" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/LIME-BioText.jpg">
