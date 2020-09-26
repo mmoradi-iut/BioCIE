@@ -84,9 +84,11 @@ As the BioBERT classification model had been already pretrained on the PubMed an
 <h2>Explanation samples</h2>
 <p>In the following, samples of the explanations produced by our BioCIE explanator, LIME, and MUSE are given. The samples were produced on the predictions of the BioBERT text classifier on all the three datasets.</p>
 <h3>BioCIE</h3>
-<p>The following explanations were produced on two samples from the <b>BioText dataset</b>. In these examples, the value of the threshold min_conf is set to 0.7.</p>
+<p>The following explanations were produced on two samples from the <b>BioText dataset</b>. In these examples, the value of the threshold min_conf was set to 0.7.</p>
 <img width="500" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/BioCIE-BioText(1).jpg">
 <img width="500" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/BioCIE-BioText(2).jpg">
-<p>The following explanations were produced on two samples from the <b>AIMed dataset</b>. In these examples, the value of the threshold min_conf is set to 0.8.</p>
+<p>The following explanations were produced on two samples from the <b>AIMed dataset</b>. In these examples, the value of the threshold min_conf was set to 0.8.</p>
 <img width="500" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/BioCIE-AIMed(1).jpg">
 <img width="500" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/BioCIE-AIMed(2).jpg">
+<p>The following explanations were produced on two samples from the <b>Hereditary Diseases</b>. In these examples, the value of the threshold min_conf was set to 0.7. Few first sentences of the sample are represented in this example, since the sample's text is too long and there is no enough space to show the whole text.</p>
+<img width="500" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/BioCIE-HD.jpg">
