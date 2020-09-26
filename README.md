@@ -21,3 +21,63 @@ As the BioBERT classification model had been already pretrained on the PubMed an
 <p>We used the Keras library of Tensorflow in python to implement a LSTM based text classification model. The model comprised of an embedding layer with 100 dimensions, a biderctional LSTM layer with 100 units, and a dense layer as the output layer with softmax activation. We used binary cross entropy as the loss function, and the Adam optimizer with the default settings.</p>
 <h3>SVM classifier</h3>
 <p>Using the Scikit-learn library (<a href="https://scikit-learn.org/stable/index.html">https://scikit-learn.org/stable/index.html</a>) in python, we implemented a SVM classifier with RBF kernel, and tf-idf weights as the input features. Stop-words were removed to reduce the size of vocabulary. Ngram range was set to (1, 2) in order to consider both unigrams and bigrams.</p>
+<h2>Predictive accuracy of black-boxes</h2>
+<p>Although the performance of the black-boxes on the text classification tasks is not among the contributions of our work, we report the classification accuarcy obtained by the black-boxes, in oredr to give an impression of how well the black-boxes performed on the tasks.</p>
+<table>
+  <tr>
+    <th>
+      Black-box classifier
+    </th>
+    <th width="20">
+      BioText
+    </th>
+    <th>
+      AIMed
+    </th>
+    <th>
+      Hereditary Diseases
+    </th>
+  </tr>
+  <tr>
+    <td>
+      BioBERT
+    </td>
+    <td>
+      0.917
+    </td>
+    <td>
+      0.931
+    </td>
+    <td>
+      0.908
+    </td>
+  </tr>
+  <tr>
+    <td>
+      LSTM
+    </td>
+    <td>
+      0.892
+    </td>
+    <td>
+      0.904
+    </td>
+    <td>
+      0.875
+    </td>
+  </tr>
+  <tr>
+    <td>
+      SVM
+    </td>
+    <td>
+      0.835
+    </td>
+    <td>
+      0.810
+    </td>
+    <td>
+      0.806
+    </td>
+  </tr>
+</table>
