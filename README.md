@@ -90,12 +90,17 @@ As the BioBERT classification model had been already pretrained on the PubMed an
 <p>The following explanations were produced on two samples from the <b>AIMed dataset</b>. In these examples, the value of the threshold min_conf was set to 0.8.</p>
 <img width="500" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/BioCIE-AIMed(1).jpg">
 <img width="500" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/BioCIE-AIMed(2).jpg">
-<p>The following explanations were produced on two samples from the <b>Hereditary Diseases</b>. In these examples, the value of the threshold min_conf was set to 0.7. Few first sentences of the sample are represented in this example, since the sample's text is too long and there was no enough space to show the whole text.</p>
+<p>The following explanations were produced on two samples from the <b>Hereditary Diseases (HD) dataset</b>. In these examples, the value of the threshold min_conf was set to 0.7. Few first sentences of the sample are represented in this example, since the sample's text is too long and there was no enough space to show the whole text.</p>
 <img width="500" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/BioCIE-HD.jpg">
 <h3>LIME</h3>
 <p>The following explanation was produced on a sample from the <b>BioText dataset</b>.</p>
 <img width="800" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/LIME-BioText.jpg">
-<p>The following explanation was produced on a sample from the <b>AIMed</b>.</p>
+<p>The following explanation was produced on a sample from the <b>AIMed dataset</b>.</p>
 <img width="800" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/LIME-AIMed.jpg">
-<p>The following explanation was produced on a sample from the <b>Hereditary Diseases</b>. Few first sentences of the sample are represented in this example, since the sample's text is too long and there was no enough space to show the whole text.</p>
+<p>The following explanation was produced on a sample from the <b>Hereditary Diseases (HD) dataset</b>. Few first sentences of the sample are represented in this example, since the sample's text is too long and there was no enough space to show the whole text.</p>
 <img width="800" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/LIME-HD(1).jpg">
+<h3>MUSE</h3>
+<p>The following explanation was produced on a sample from the <b>BioText dataset</b>.</p>
+<img width="800" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/MUSE-BioText.jpg">
+<p>The following explanation was produced on a sample from the <b>AIMed dataset</b>.</p>
+<img width="800" src="https://github.com/mmoradi-iut/BioCIE/blob/master/Images/MUSE-AIMed.jpg">
