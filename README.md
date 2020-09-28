@@ -82,7 +82,7 @@ As the BioBERT classification model had been already pretrained on the PubMed an
     </td>
   </tr>
 </table>
-<h2>Explanation samples</h2>
+<h2>Sample explanations</h2>
 <p>In the following, samples of the explanations produced by our BioCIE explanator, LIME, and MUSE are given. The samples were produced on the predictions of the BioBERT text classifier on all the three datasets. In addition to our BioCIE explanation method, we used two other explanators in the experiments:
 
 - <b>LIME</b> (https://github.com/marcotcr/lime)
